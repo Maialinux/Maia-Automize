@@ -16,7 +16,7 @@ Depois de pronto seu programa, você pode transnformá-lo em um executável.
 Para isto use o módulo do python chamado de PyInstaller que você já instalou pelo arquivo requirement.txt.
 Eu usei este comando para mim mesmo:
 
-pyinstaller --noconsole --onefile main.py
+pyinstaller --noconsole --onefile --name=NomeDoSeuPrograma main.py
 
 
 Se você estiver no Windows ele criará um .exe, se você estiver no Linux ele criará um executável binário.
